@@ -29,9 +29,10 @@ export default function Layout({ children }) {
                 <ul style={{ listStyle: `none`, float: `right` }}>
                     <ListLink to="/">Home</ListLink>
                     <ListLink to="/blog/">Blog</ListLink>
-                    <ListLink to="/about/">About</ListLink>
-                    <ListLink to="/about-css-modules/">CSS Modules</ListLink>
                     <ListLink to="/contentful-blog/">Contentful Blog</ListLink>
+                    <ListLink to="/datocms-blog/">DatoCMS Blog</ListLink>
+                    <ListLink to="/about-css-modules/">CSS Modules</ListLink>
+                    <ListLink to="/about/">About</ListLink>
                     <ListLink to="/contact/">Contact</ListLink>
                 </ul>
 

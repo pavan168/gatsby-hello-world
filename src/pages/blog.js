@@ -32,8 +32,8 @@ export default function Blog() {
             return (
 
               <li key={index}>
-                {/* <Link to={`/blog/${edge.node.fields.slug}`}> */}
-                <Link to={''}>
+                <Link to={`/blog/${edge.node.fields.slug}`}>
+                  {/* <Link to={''}> */}
                   <h2>{edge.node.frontmatter.title}</h2>
                 </Link>
                 <p>{edge.node.frontmatter.description}</p>
