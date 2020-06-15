@@ -10,6 +10,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "env-cmd -f .env.development gatsby develop",
+    "deploy": "surge --domain gatsby-hello-world-pavan168.surge.sh",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -20,6 +21,7 @@
     "@contentful/rich-text-react-renderer": "^13.4.0",
     "@emotion/core": "^10.0.28",
     "gatsby": "^2.22.15",
+    "gatsby-plugin-commercelayer": "^1.2.10",
     "gatsby-plugin-emotion": "^4.3.4",
     "gatsby-plugin-typography": "^2.5.4",
     "gatsby-source-contentful": "^2.3.15",

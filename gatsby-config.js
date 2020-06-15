@@ -50,6 +50,7 @@ module.exports = {
         },
       },
     },
+    'gatsby-plugin-commercelayer',
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,

@@ -31,6 +31,7 @@ export default function Layout({ children }) {
                     <ListLink to="/blog/">Blog</ListLink>
                     <ListLink to="/contentful-blog/">Contentful Blog</ListLink>
                     <ListLink to="/datocms-blog/">DatoCMS Blog</ListLink>
+                    <ListLink to="/product-page/">Commercelayer</ListLink>
                     <ListLink to="/about-css-modules/">CSS Modules</ListLink>
                     <ListLink to="/about/">About</ListLink>
                     <ListLink to="/contact/">Contact</ListLink>
